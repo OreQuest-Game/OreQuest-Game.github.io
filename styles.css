@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-align: center;
+}
