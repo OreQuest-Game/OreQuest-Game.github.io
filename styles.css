@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* Basic styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Courier New", sans-serif;
 }
 
 .container {
@@ -68,4 +69,15 @@ footer {
   color: #FFFFFF;
   padding: 20px 0;
   text-align: center;
+}
+.img1 {
+  display: flex;
+  justify-content: top-left;
+  align-items:top-left;
+  margin: 5px 20px;
+}
+.p {
+  font-size: 25px;
+  font-family: sans;
+  padding: 50px 10px;
 }
