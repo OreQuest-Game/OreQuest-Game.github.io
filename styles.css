@@ -182,7 +182,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #FFFFFF; /* Change color on hover */
+  background-color: #555; /* Change color on hover */
 }
 
 /* Adjustments for smaller screens */
