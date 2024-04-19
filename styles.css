@@ -174,6 +174,8 @@ nav ul li:first-child {
 
 /* Additional styling for navigation links */
 nav ul li a {
+  text-decoration: none;
+  color: #fff;
   padding: 10px 15px; /* Adjust padding as needed */
   border-radius: 5px;
   background-color: #333;
