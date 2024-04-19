@@ -50,6 +50,10 @@ header .container h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
+header .container p {
+  font-size: 25px;
+  padding: 0px 10px;
+}
 
 .btn {
   display: inline-block;
@@ -72,12 +76,116 @@ footer {
 }
 .img1 {
   display: flex;
-  justify-content: top-left;
-  align-items:top-left;
+  justify-content: center;
+  align-items: center;
   margin: 5px 20px;
 }
 .p {
   font-size: 25px;
   font-family: "Arial", sans-serif;
   padding: 50px 10px;
+}
+.menu-icon {
+  display: none; /* Hide by default for larger screens */
+}
+
+/* Navigation menu */
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+/* Hide the navigation menu by default on mobile */
+nav ul {
+  display: none;
+}
+
+/* Show the navigation menu when the menu icon is clicked */
+.menu-icon.active + ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  /* Show the hamburger menu icon */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  /* Hide the navigation links by default on small screens */
+  nav ul {
+    display: none;
+  }
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px auto;
+  transition: background-color 0.3s ease;
+}
+nav#main-nav {
+  /* Your existing styles for navigation menu */
+  /* For example: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Hide the navigation menu by default */
+  display: none;
+}
+
+/* Show the navigation menu when 'active' class is present */
+nav#main-nav.active {
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px 20px;
+  display: flex; /* Display the list horizontally */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+/* Additional styling for navigation links */
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px; /* Adjust padding as needed */
+  border-radius: 5px;
+  background-color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Change color on hover */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Hide the navigation links by default on small screens */
+  nav ul {
+    display: none;
+  }
 }
