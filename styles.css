@@ -19,7 +19,7 @@ body {
 header {
   background-color: #1E1E1E;
   color: #FFFFFF;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 nav ul {
@@ -36,6 +36,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav#main-nav .ham a{
+  color: white;
+  font-family: "Arial", sans-serif
+}
 header h1 {
   font-size: 24px;
 }
@@ -140,7 +144,7 @@ nav ul {
   width: 25px;
   height: 3px;
   background-color: #fff;
-  margin: 5px auto;
+  margin: 5px 300px;
   transition: background-color 0.3s ease;
 }
 nav#main-nav {
@@ -194,4 +198,10 @@ nav ul li a:hover {
   header .container a {
   display: none;
 }
+  main .down a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+  }
 }
