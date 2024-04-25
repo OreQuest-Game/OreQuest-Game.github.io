@@ -5,10 +5,15 @@
   box-sizing: border-box;
   
 }
+@font-face {
+  font-family: OreQuest;
+  src: url('font.otf') format('opentype');
+}
 
 /* Basic styling */
 body {
   font-family: "Courier New", sans-serif;
+  font-family: OreQuest
 }
 
 .container {
@@ -38,7 +43,7 @@ nav ul li a {
 
 nav#main-nav .ham a{
   color: white;
-  font-family: "Arial", sans-serif
+  font-family: OreQuest;
 }
 header h1 {
   font-size: 24px;
