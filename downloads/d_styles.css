@@ -1,5 +1,10 @@
+@font-face {
+  font-family: OreQuest;
+  src: url('font.otf') format('opentype');
+}
 body {
     font-family: Arial, sans-serif;
+   font-family: OreQuest;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -40,4 +45,15 @@ h1, h2 {
 }
 body .container p {
     text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+  color: #fff;
+  padding: 10px 15px; /* Adjust padding as needed */
+  border-radius: 5px;
+  background-color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Change to your desired hover color */
 }
